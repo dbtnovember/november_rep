@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: orders_info
+    database: hdfc_db
+    schema: hdfc_sc
+    tables:
+      - name: order_items
+      - name: customers
+      - name: transactions
+      
+  - name: new_work
+    database: DBT_DB
+    schema: DBT_SC
+    tables:
+      - name: NEW_ORDER

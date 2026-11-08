@@ -1,0 +1,1 @@
+select distinct(quantity) from {{ ref('raw_file') }}

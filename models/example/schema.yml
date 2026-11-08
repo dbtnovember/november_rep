@@ -10,6 +10,9 @@ models:
             tests:
                 - unique
                 - not_null
+    - name: dbt3
+      description: "A starter dbt model3"
+                
 
     - name: my_second_dbt_model
       description: "A starter dbt model"
@@ -18,4 +21,12 @@ models:
             description: "The primary key for this table"
             tests:
                 - unique
+                - not_null
+
+    - name: raw_file
+      description: "raw input from the source "
+      columns:
+          - name: order_id
+            description: "checking the tests"
+            tests:
                 - not_null

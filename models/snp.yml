@@ -1,0 +1,7 @@
+
+sources:
+  - name: snap_info
+    database: DBT_DB
+    schema: DBT_SC
+    tables:
+      - name: snap2

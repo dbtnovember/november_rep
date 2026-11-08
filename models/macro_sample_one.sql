@@ -1,0 +1,1 @@
+select {{num_add(1,2,3)}},{{char_con('praveen','arun')}}

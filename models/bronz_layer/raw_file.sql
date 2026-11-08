@@ -1,0 +1,1 @@
+select * from HDFC_DB.HDFC_SC.order_items

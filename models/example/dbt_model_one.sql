@@ -1,0 +1,1 @@
+select distinct(product_id) from HDFC_DB.HDFC_SC.order_items
