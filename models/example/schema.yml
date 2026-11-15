@@ -10,6 +10,8 @@ models:
             tests:
                 - unique
                 - not_null
+
+                
     - name: dbt3
       description: "A starter dbt model3"
                 

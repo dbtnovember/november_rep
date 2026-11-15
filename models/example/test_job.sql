@@ -7,7 +7,11 @@
     Try changing "table" to "view" below
 */
 
-{{ config(enabled=true) }}
+{{
+    config(
+        materialized='table'
+    )
+}}
 
 select * from hdfc_db.hdfc_sc.order_items
 /*

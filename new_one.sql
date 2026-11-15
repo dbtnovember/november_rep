@@ -1,0 +1,1 @@
+select * from DBT_DB.DBT_SC.NEW_ORDER1
